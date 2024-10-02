@@ -51,7 +51,32 @@ public class Ch03_4문자열 {
         // 숫자를 입력
         System.out.println(String.format("나는 사과를 %d개 먹었다.", 10));
 
-        //두 개이상 입력
+        // 두 개이상 입력
         System.out.println(String.format("나는 사과를 %d개 먹고 아파서 %s일 약을 먹었다.", 5, "3"));
+
+        // 문자열 포맷 코드(%s: 문자열, %c: 문자1개, %d: 정수, %f: 부동소수)
+
+        // 문자열 포맷 정렬과 공백 %자릿수s %10d
+        System.out.println(String.format("%10s", "하이"));
+
+        // -공백
+        System.out.println(String.format("%-10s펭수", "하이"));
+
+        // 소수점 표현(.소수점자릿수 짤리는 숫자는 반올림)
+        System.out.println(String.format("%.4f", 3.42135234));
+
+        // 전체 자릿수와 소수점자리
+        System.out.println(String.format("%10.4f", 3.42135234));
+
+        //print는 출력 메소드, println은 한줄을 출력함.
+        System.out.print("출력!");
+        System.out.print("출력!");
+        System.out.println("한줄출력!");
+        System.out.println("한줄출력!");
+
+        // printf: 문자열 포맷을 포함하는 출력 메소드
+        // Strting.format 메소드를 포함
+        System.out.printf("나는 오늘 아침에 사과 %d개를 먹었다.", 3);
+
     }
 }

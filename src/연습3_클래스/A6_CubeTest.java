@@ -1,4 +1,4 @@
-package 연습_클래스;
+package 연습3_클래스;
 class Cube{
     int lenght;
 

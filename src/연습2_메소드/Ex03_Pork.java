@@ -1,4 +1,4 @@
-package 연습_메소드;
+package 연습2_메소드;
 
 public class Ex03_Pork {
     public static void main(String[] args) {
